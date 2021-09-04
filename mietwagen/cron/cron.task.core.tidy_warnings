@@ -1,0 +1,145 @@
+	<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="verification" content="e077da711570d7000f3aa74067c26c8f" />																								   
+
+<title>Testboard - Information</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - Testboard" href="/mietwagen/feed?sid=b84cea2f66bced95d787f828eb2f6702">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="/mietwagen/feed/topics?sid=b84cea2f66bced95d787f828eb2f6702">				
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="./../../assets/css/font-awesome.min.css?assets_version=16" rel="stylesheet">
+<link href="./../../styles/prosilver/theme/stylesheet.css?assets_version=16" rel="stylesheet">
+<link href="./../../styles/prosilver/theme/en/stylesheet.css?assets_version=16" rel="stylesheet">
+
+
+
+<!-- style for PopUp-->
+
+  <!--need to remove this line <link href="./../../assets/javascript/jeegoopopup/skins/basic/style.css" rel="Stylesheet" type="text/css" />-->		
+  <link href="./../../assets/css/jquery-ui.min.css" rel="Stylesheet" type="text/css" />				   
+<!--[if lte IE 9]>
+	<link href="./../../styles/prosilver/theme/tweaks.css?assets_version=16" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+
+<!-- Start Favicons-->
+	<link rel="apple-touch-icon" sizes="57x57" href="styles/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="styles/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="styles/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="styles/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="styles/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="styles/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="styles/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="styles/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="styles/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="styles/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="styles/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="styles/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="styles/favicons/favicon-16x16.png">
+	<link rel="manifest" href="styles/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="styles/favicons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+<!--END Favicons-->
+
+
+
+<script>
+/**
+* Funktion, mit der in Analytics Klicks auf externe Links erfasst werden
+* Bei dieser Funktion wird ein gültiger URL-String als Argument genommen und
+* als Ereignis-Label verwendet. Bei der Transportmethode "beacon" kann der Treffer
+* mit "navigator.sendBeacon" gesendet werden, sofern der Browser dies unterstützt.
+*/
+var trackOutboundLink = function(url) {
+   gtag ('event', url, {'event_category' : 'externlink'});
+   }
+</script>	
+	<!-- Deferred PopUp JS -->
+<script>
+if ( ! window.deferAfterjQueryLoaded ) {
+    window.deferAfterjQueryLoaded = [];
+    Object.defineProperty(window, "$", {
+        set: function(value) {
+            window.setTimeout(function() {
+                $.each(window.deferAfterjQueryLoaded, function(index, fn) {
+                    fn();
+                });
+            }, 0);
+            Object.defineProperty(window, "$", { value: value });
+        },
+
+        configurable: true
+    });
+}
+
+</script> 
+<style>
+	.ui-widget.ui-widget-content{border:7px solid #fff; border-radius:0; padding:0;}
+	.ui-dialog .ui-dialog-content{padding:0; overflow:hidden;} 
+	.ui-widget-overlay {opacity:.3;}
+	.ui-dialog-title{display:none;}
+	.ui-dialog .ui-dialog-titlebar{padding:0; border:none;}
+	.ui-dialog .ui-dialog-titlebar-close{top:-7px; right:-12px; border-radius:70%; z-index:10;}
+	.ui-button .ui-icon.ui-icon-closethick{background:url(../assets/css/images/closebox.png); width:30px; height:30px; margin-top:-13px; margin-left:-13px;}
+	.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus, :focus{border:none; outline: none;}
+</style>  					 					  
+</head>
+<body id="phpbb" class="nojs notouch section-app/mietwagen/cron/cron.task.core.tidy_warnings ltr ">
+							  
+
+<div id="wrap" class="wrap">
+							 			 
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+		<a id="logo" class="logo" href="./../../index.php?sid=b84cea2f66bced95d787f828eb2f6702" title="Board index">
+					<span class="site_logo"></span>
+				</a>
+				<h1>Testboard</h1>
+				<p>Testboard</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+									<div id="search-box" class="search-box search-header" role="search">
+				<form action="./../../search.php?sid=b84cea2f66bced95d787f828eb2f6702" method="get" id="search">
+				<fieldset>
+					<input name="keywords" id="keywords" type="search" maxlength="128" title="Search for keywords" class="inputbox search tiny" size="20" value="" placeholder="Search…" />
+					<button class="button button-search" type="submit" title="Search">
+						<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+					</button>
+					<a href="./../../search.php?sid=b84cea2f66bced95d787f828eb2f6702" class="button button-search-end" title="Advanced search">
+						<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+					</a>
+					<input type="hidden" name="sid" value="b84cea2f66bced95d787f828eb2f6702" />
+
+				</fieldset>
+				</form>
+			</div>
+						
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar">
+
+		<li id="quick-links" class="quick-links dropdown-container re
